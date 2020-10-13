@@ -1,0 +1,486 @@
+*{
+	padding:  0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+/************************************
+		main css xtart
+****************************************/
+
+/****************header section css start*************/
+.header-section{
+	background: url("../img/header.png") center center no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+
+}
+.menu .bg-light{
+	background: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	margin: 0px 15px;
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 0px;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #2870db;
+	
+}
+.menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+}
+.menu .navbar-light .navbar-nav .active>.nav-link:hover{
+	color: #2870db;
+}
+.menu .btn-info{
+	padding: 10px 35px;
+	font-weight: 700;
+	background: #fff;
+	color: #000;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 14px ;
+	transition: 1s ease-in;
+}
+.menu .btn-info:hover, .menu .btn-info:focus{
+	background: #2870db;
+	color: #fff;
+	border: 0px;
+}
+.header-section .banner{
+width: 100%;
+padding: 60px 0px 170px;
+}
+.banner .banner-inner{
+	width: 100%;
+	padding: 0px 0px 150px;
+}
+.banner .banner-inner h1{
+	font-size: 42px;
+	line-height: 52px;
+	color: #1c2056;
+	font-weight: 600;
+
+}
+.banner .banner-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #9ca6aa;
+	font-weight: 400;
+
+}
+.banner .banner-inner .btn-info{
+	padding: 10px 35px;
+	margin-top: 10px;
+	background: #2870db;
+	color: #fff;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 14px ;
+	transition: 1s ease-in;
+}
+.banner .banner-inner .btn-info:hover, .banner .banner-inner .btn-info:focus{
+	background: #fff;
+	color: #000;
+	border: 0px;
+}
+/*header section css end*/
+
+/*envision section css start*/
+
+.envision{
+	width: 100%;
+	background: url("../img/exam-psd.png") center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.envision .title{
+	width: 100%;
+	padding: 0px 0px 30px;
+	text-align: center;
+}
+.envision .title h3{
+	font-size: 42px;
+	line-height: 52px;
+	color: #000;
+	font-weight: 700;
+}
+.envision .service-inner{
+	width: 100%;
+	margin: 20px 50px;
+	
+	box-shadow: 1px;
+	
+	}
+	.envision .bg-1{
+		background: #fff;
+	padding: 50px 30px;
+	border-radius: 10px;
+	}
+.envision .bg-1 h4{
+	font-size: 42px;
+	color: #000;
+	font-weight: 700;
+	
+}
+.envision .bg-1 p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #9ca6aa;
+	font-weight: 400;
+
+}
+
+.envision .bg-2{
+		background: #fff;
+	padding: 50px 30px;
+	margin-left: 120%;
+	border-radius: 10px;
+	}
+.envision .bg-2 h4{
+	font-size: 42px;
+	color: #000;
+	font-weight: 700;
+	
+}
+.envision .bg-2 p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #9ca6aa;
+	font-weight: 400;
+
+}
+
+
+.envision .bg-3{
+		background: #fff;
+	padding: 50px 30px;
+	border-radius: 10px;
+	}
+.envision .bg-3 h4{
+	font-size: 42px;
+	color: #000;
+	font-weight: 700;
+	
+}
+.envision .bg-3 p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #9ca6aa;
+	font-weight: 400;
+
+}
+.envision .btn-info {
+   padding: 10px 35px;
+	margin-top: 10px;
+	background: #2870db;
+	color: #fff;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 14px ;
+	transition: 1s ease-in;
+    margin-left: 25px;
+    margin-top: 30%;
+}
+.envision .btn-info:hover, .envision .btn-info:focus{
+	background: #fff;
+	color: #000;
+	border: 0px;
+}
+/*envision section css end*/
+
+
+.support {
+	width: 100%;
+	padding: 80px 0px;
+	background:#fbfcfc;
+}
+.support  .title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 45px;
+}
+.support  .title h2{
+	font-size: 28px;
+	color: #000;
+	font-weight: 700
+	text-transform: uppercase;
+}
+.support  .box{
+	width: 100%;
+	text-align: center;
+}
+.support  .box h3{
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 19px;
+	color: #263238;
+}
+.support  .box h1{
+	font-size: 58px;
+	font-weight: 700;
+	color: #1a56a3;
+}
+
+
+
+/*News css start*/
+.News{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../img/sm.png");
+	background-size: cover;
+	
+}
+.News .title{
+	width: 100%;
+	padding: 0px 45px;
+	text-align: center;
+}
+.News .title h1{
+	font-size: 42px;
+	line-height: 52px;
+	color: #000;
+	font-weight: 700;
+    margin-bottom: 65px;
+    margin-top: -67px;
+    font-family: sans-serif;
+}
+.News .card{
+    margin-left: 70px;
+    margin-right: -66px;
+	border-radius: 25px;
+	
+}
+.News .card-body{
+	padding: 1rem;
+}
+
+.News .card-title{
+	margin-bottom: 4px;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 24px;
+
+}
+.News .card-text{
+	font-size: 16px;
+	color: #9ca6aa;
+
+}
+.News .btn-link{
+	font-weight: 400;
+	color:#2870db;
+	text-decoration: none;
+	text-align: left;
+	padding: 0px;
+}
+
+.News .card:hover .btn-link{
+	color: #000;
+
+}
+/*news section end*/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("..//img/fb2.png") center center no-repeat;
+	background-size: cover;
+}
+
+
+ .footer-section .title{
+	width: 100%;
+	height: 110%;
+	padding: 80px 0px;
+	background: url("../img/f.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-radius: 15px;
+	margin-bottom: 26px;
+}
+ .footer-section .title h2{
+ 	font-size: 25px;
+	line-height: 35px;
+	color: #fff;
+	font-weight: 600;
+    margin-bottom: 65px;
+    margin-top: -67px;
+    font-family: sans-serif;
+ }
+ .footer-section .login-form{
+ 	width: 60%;
+ 	margin-left: 20%;
+ 	border-radius: 20px;
+ 
+ }
+ .form-group .form-control{
+ 	font-size:14px;
+	
+	color: #98a8af;
+	font-weight: 400;
+ }
+.form-group .btn-info{
+	 padding: 10px 35px;
+	margin-top: 30px;
+	background: #00aeff;
+	color: #fff;
+	border: 0px;
+	border-radius: 30px;
+	font-size: 14px ;
+	transition: 1s ease-in;
+   
+}
+.form-group .btn-info:hover{
+	background: #fff;
+	color: #000;
+	border: 0px;
+}
+
+
+
+ .footer-section .footer-we{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ 	margin-top: 30px;
+ }
+
+.footer-section .footer-we .contacat-us h2{
+	font-size: 24px;
+	color: #fff;
+	font-family: monospace;
+	margin-bottom: 40px;
+}
+
+.footer-section .footer-we .contacat-us a h6{
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+}
+.footer-section .footer-we .contacat-us a h6:hover{
+	color: #00aeff;
+}
+.footer-section .footer-we .contacat-us .divider{
+	margin-top: 35px;
+}
+
+
+.footer-section .footer-we .ABOUT-US h2{
+	font-size: 24px;
+	color: #fff;
+	font-family: monospace;
+	margin-bottom: 40px;
+}
+
+.footer-section .footer-we .ABOUT-US a h6{
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+}
+.footer-section .footer-we .ABOUT-US a h6:hover{
+	color: #00aeff;
+}
+
+
+
+.footer-section .footer-we .Our-Programs h2{
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+	/*font-family: monospace;*/
+	margin-bottom: 40px;
+}
+
+.footer-section .footer-we .Our-Programs a h6{
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+}
+.footer-section .footer-we .Our-Programs a h6:hover{
+	color: #00aeff;
+}
+
+
+.footer-section .footer-we .trails h2{
+	font-size: 24px;
+	color: #fff;
+	/*font-family: monospace;*/
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+.footer-section .footer-we .trails a h6{
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+}
+.footer-section .footer-we .trails a h6:hover{
+	color: #00aeff;
+}
+
+
+.footer-section .footer-we .hiking h2{
+	font-size: 19px;
+	font-weight: 600;
+	color: #fff;
+	
+	margin-bottom: 40px;
+}
+
+.footer-section .footer-we .hiking a h6{
+	font-size: 18px;
+	line-height: 25px;
+	color: #fff;
+}
+.footer-section .footer-we .hiking a h6:hover{
+	color: #00aeff;
+}
+
+.footer-section .footer-main{
+	width: 100%;
+	padding: 80px 0px;
+}
+.footer-section .footer-main ul{
+display: block;
+}
+.footer-section .footer-main ul li{
+	display: inline-block;
+	list-style: none;
+
+}
+
+
+.footer-section .footer-main ul li a .fa{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 25px;
+	background: #fff;
+	color: #2376cf;
+	text-align: center;
+
+}
+.footer-section .footer-main ul li a .fa:hover{
+	background: transparent;
+	color: #15a4fa;
+	
+/*footer section end*/
+
+
